@@ -45,6 +45,20 @@ pip install -r requirements.txt
 ## 🖥️ Sample Output
 
 Paste a sample of your app's CLI or Streamlit output here so a reader can see what a generated plan looks like:
+$ python main.py 
+==================================================
+  Today's Schedule for Jordan
+==================================================
+[ ] 07:30 AM - 08:00 AM  Mochi    Morning walk (30 min, high)
+[ ] 08:00 AM - 08:10 AM  Luna     Feed breakfast (10 min, high)
+[ ] 08:05 AM - 08:10 AM  Luna     Give medication (5 min, medium)
+[ ] 02:00 PM - 02:45 PM  Mochi    Vet appointment (45 min, high)
+[ ] 06:00 PM - 06:20 PM  Luna     Play session (20 min, low)
+--------------------------------------------------
+  5 tasks, 110 of 120 min used
+
+Warning: time conflicts detected
+  Luna: Feed breakfast overlaps Luna: Give medication
 
 ```
 # e.g.:

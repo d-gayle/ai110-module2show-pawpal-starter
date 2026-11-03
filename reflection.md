@@ -6,12 +6,12 @@
 
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
-
+    A user should be able to add a pet to their profile, schedule care tasks for it with a time and duration, and view today’s plan in priority order.”
 **b. Design changes**
 
 - Did your design change during implementation?
 - If yes, describe at least one change and why you made it.
-
+I added pet_name field to task because the scheduler returns a flat list of task and the plan couldnt show which pet each task belonged to.
 ---
 
 ## 2. Scheduling Logic and Tradeoffs
